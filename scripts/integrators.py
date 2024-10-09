@@ -40,7 +40,7 @@ def implicit_midpoint_step(t, y, h, func):
         return y_new - y - h * func(t + h/2, (y_new + y)/2)
 
     # Solve the implicit equation using a root-finding method
-    sol = root(implicit_eq, y)
+    sol = root(implicit_eq, y, tol=1e-15)
     return sol.x
 
 def integrate_with_implicit_midpoint(y0, func, t_eval):
