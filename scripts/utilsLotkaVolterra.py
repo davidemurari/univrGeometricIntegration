@@ -2,14 +2,15 @@ import numpy as np
 
 #Parameters of the model
 alpha = 2.
-beta = 4.
+beta = 1.
 gamma = 1.
 delta = 1.
-x0,y0 = 1.,0.3
+
+x0,y0 = 0.1,1.9
 z0 = np.array([x0,y0])
 
 def Gonzalez(V,gradV,x,y):
-   tol = 1e-6
+   tol = 1e-10
    if np.linalg.norm(y-x,ord=2)<tol:
         return gradV(x)
    else:
@@ -29,7 +30,7 @@ def ItohAbe(V,gradV,x,y):
 
 def H(z):
     x,y = z[0],z[1]
-    return delta*x-gamma*np.log(x)+beta*y-gamma*np.log(y)
+    return delta*x-gamma*np.log(x)+beta*y-alpha*np.log(y)
 
 def gradH(z):
     x,y = z[0],z[1]
