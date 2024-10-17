@@ -139,6 +139,7 @@ def plot_energy_behaviour_SIR(soln,t_eval,method):
     plt.plot(t_eval,soln[2],'b-',label=r"$R$")
     plt.plot(t_eval,E,'c-',label=r"$S+I+R$",linewidth=2)
     plt.xlabel(r"$t$")
+    plt.title(method)
     plt.legend()
     plt.show();
 
