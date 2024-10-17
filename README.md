@@ -1,7 +1,7 @@
-#### Repository for the seminar course "Structure-preserving methods for Ordinary Differential Equations"
+## Repository for the seminar course "Geometric methods for differential equations and learning applications"
 
-More details about the lecture notes can be found here: ![Lecture Notes](https://davidemurari.com/teaching/)
-Details about the course are here: ![UniVR web page](https://www.di.univr.it/?ent=seminario&id=6405)
+- More details about the lecture notes can be found here: [Lecture Notes](https://davidemurari.com/teaching/)
+- Details about the course are here: [UniVR web page](https://www.di.univr.it/?ent=seminario&id=6405)
 
 To access the code examples you can proceed in one of the three following options:
 - If you are (a bit) experience with GitHub you can Fork the repository and then work on it locally
