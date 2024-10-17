@@ -4,7 +4,7 @@
 - Details about the course are here: [UniVR web page](https://www.di.univr.it/?ent=seminario&id=6405)
 
 To access the code examples you can proceed in one of the three following options:
-- If you are (a bit) experience with GitHub you can Fork the repository and then work on it locally
+- If you are (a bit) experienced with GitHub you can Fork the repository and then work on it locally
 ![Fork](assets/fork.png)
 
 - If you have never worked with GitHub but are already setup to work with Python scripts and notebooks on your computer, you can download the repository as a .zip folder and work on your computer.
